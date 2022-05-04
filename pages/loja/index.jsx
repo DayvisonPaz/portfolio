@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import Image from 'next/image'
-export default function Store(){
+export default function Loja(){
 // states usados 
 const [data,Setdata] = useState([]) // pegar os dados
 const [view,Setview] = useState([]) // produto visualizado

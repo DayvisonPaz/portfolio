@@ -1,5 +1,5 @@
 import Image from "next/image"
-export default function Page(){
+export default function Portfolio(){
 
     return(
     <> <section className="w-full overflow-hidden"> 
@@ -46,10 +46,10 @@ export default function Page(){
     </div>
     
 <div className='justify-around mt-5 bg-gray-500 w-full flex pl-28'> 
-<div>  <Image className="w-1/12" width='8%' height='8%' src="/instagram.png" alt="" /><p>instagram</p></div>
-<div><Image className="w-1/12" width='8%' height='8%' src="/twitter.png" alt="" /><p>twitter</p></div>
-<div><Image className="w-1/12" width='8%' height='8%' src="/codepen.png" alt="" /><p>codepen</p></div>
-<div><Image className="w-1/12" width='8%' height='8%' src="/github.png" alt="" /><p>github</p></div>
+<div>  <Image  width='8%' height='8%' src="/instagram.png" alt="" /><p>instagram</p></div>
+<div><Image  width='8%' height='8%' src="/twitter.png" alt="" /><p>twitter</p></div>
+<div><Image  width='8%' height='8%' src="/codepen.png" alt="" /><p>codepen</p></div>
+<div><Image  width='8%' height='8%' src="/github.png" alt="" /><p>github</p></div>
 
 </div>
 
